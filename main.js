@@ -16,6 +16,7 @@ function calculateAge(e) {
     month: dobInput.getMonth() + 1,
     year: dobInput.getFullYear(),
   };
+  
   let currentYear = today.getFullYear();
   let currentMonth = today.getMonth() + 1;
   let currentDate = today.getDate();
